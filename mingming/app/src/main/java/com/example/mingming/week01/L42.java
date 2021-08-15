@@ -1,4 +1,4 @@
-package com.example.mingming;
+package com.example.mingming.week01;
 
 import java.util.Deque;
 import java.util.LinkedList;
