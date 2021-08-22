@@ -21,7 +21,7 @@ public class L47 {
             return;
         }
         for (int i = 0; i < nums.length; i++) {
-            if (vis[i] || (i > 0 && nums[i] == nums[i - 1] && !vis[i - 1])) { //!vis[i - 1] 没理解这句表达什么意思
+            if (vis[i] || (i > 0 && nums[i] == nums[i - 1] && !vis[i - 1])) {
                 continue;
             }
             vis[i] = true;
