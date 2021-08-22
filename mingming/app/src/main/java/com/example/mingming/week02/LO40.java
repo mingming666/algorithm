@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 /*
 题目 ： https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/
        解决办法：
-       1. 排序，复杂度O(nlog n),空间复杂度O(log n);
+       1. 使用快排，复杂度O(nlog n),空间复杂度O(log n);
        2. 维护一个大小为k的大顶堆，算法复杂度O(nlog k),空间复杂度 O(k);
 */
 

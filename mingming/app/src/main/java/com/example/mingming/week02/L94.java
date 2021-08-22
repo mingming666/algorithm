@@ -8,7 +8,7 @@ import java.util.Set;
 * 题目：https://leetcode-cn.com/problems/chou-shu-lcof/
 * 题解方法：
 * 1. 从小到大计算丑数，使用Set排除重复，计数到第n个, 时间复杂度O(nlog n), 空间复杂度O(n)
-* 2. 动态规划, 时间复杂度O(n)，空间复杂度O(1)
+* 2. 动态规划, 时间复杂度O(n)，空间复杂度O(n)
 * */
 public class L94 {
     public int nthUglyNumber(int n) {
